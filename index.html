@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css"/>
+  <title>Eric's Quiz</title>
+</head>
+<body>
+  <header>
+    <h1>Quiz</h1>
+    <div><button id="start-quiz">Start Quiz</button></div>
+  </header>
+  
+  <main class ="quiz hide"> 
+    <section id="quiz-container">
+      <h2 id="question">Question goes here</h2>
+      <ol id="options">
+        <li><button>Option 1</button></li>
+        <li><button>Option 2</button></li>
+        <li><button>Option 3</button></li>
+        <li><button>Option 4</button></li>
+        </ol>
+    </section>
+    
+    <section id="score">
+      <h2>Score: <span id="score-value">0</span></h2>
+    </section>
+    
+    <section id="timer">
+      <h2>Time Remaining: <span id="timer-value">60</span> seconds</h2>
+       <script>
+        let time = 60;
+        
+        function updateTimer() {
+          time -= 5;
+          document.getElementById("timer").textContent = time;
+          
+        }
+        let intervalId = setInterval(updateTimer, 1000);
+       </script>
+    </section>
+  </main>
+  
+  <footer>
+    <!-- Add any necessary footer content here -->
+  </footer>
+  <script src="./Assets/script.js"></script>
+  <!-- Add any necessary JavaScript files or scripts here -->
+</body>
+</html>
