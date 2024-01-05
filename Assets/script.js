@@ -48,7 +48,7 @@ const questions = [
         correctAnswer: "Ada Lovelace"
     },
     {
-        question: "Who is considered the MOther of the Internet?",
+        question: "Who is considered the Mogther of the Internet?",
         options: ["Anita Borg", "Grace Hopper", "Ada Lovelace", "Radia Perlman"],
         correctAnswer: "Radia Perlman"
     },
