@@ -69,7 +69,7 @@ const questions = [
     },
     {
         question: "What does HTML stand for?",
-        options: ["Hyper Trainer Marking Language", "Hyper Text Marketing Language", "Hyper Text Markup Lgit anguage", "Hyper Text Markup Leveler"],
+        options: ["Hyper Trainer Marking Language", "Hyper Text Marketing Language", "Hyper Text Markup Language", "Hyper Text Markup Leveler"],
         correctAnswer: "Hyper Text Markup Language"
     },
     // Add more questions here...
