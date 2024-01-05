@@ -48,9 +48,9 @@ const questions = [
         correctAnswer: "Ada Lovelace"
     },
     {
-        question: "What is the largest animal in the world?",
-        options: ["Blue Whale", "Giraffe", "Shark", "Bear"],
-        correctAnswer: "Blue Whale"
+        question: "Who is considered the MOther of the Internet?",
+        options: ["Anita Borg", "Grace Hopper", "ada Lovelace", "Radia Perlman"],
+        correctAnswer: "Radia Perlmanx"
     },
     {
         question: "Who painted the Mona Lisa?",
