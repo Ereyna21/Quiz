@@ -38,14 +38,14 @@ function startTime() {
 
 const questions = [
     {
-        question: "What is the capital of Texas?",
-        options: ["Dallas", "Houston", "El Paso", "Austin"],
-        correctAnswer: "Austin"
+        question: "Who is considered the father of Computer Science?",
+        options: ["Yoshua Bengio", "Geoffrey Hinton", "Allan Turing", "Elon Musk"],
+        correctAnswer: "Allan Turing"
     },
     {
-        question: "What is Americas biggest state?",
-        options: ["Florida", "Alaska", "Texas", "California"],
-        correctAnswer: "Alaska"
+        question: "Who is the first Computer Programmer?",
+        options: ["Ada Lovelace", "Gottfried Leibniz", "Elon Musk", "Bill Gates"],
+        correctAnswer: "Ada Lovelace"
     },
     {
         question: "What is the largest animal in the world?",
@@ -74,7 +74,7 @@ function checkAnswer(event) {
     const currentQuestion = questions[currentQuestionIndex];
 
     if (selectedAnswer === currentQuestion.correctAnswer) {
-        score+=10;
+        score+=15;
         console.log("this is my score", score);
         currentscore.textContent= score;
     } else {
