@@ -50,7 +50,7 @@ const questions = [
     {
         question: "Who is considered the MOther of the Internet?",
         options: ["Anita Borg", "Grace Hopper", "Ada Lovelace", "Radia Perlman"],
-        correctAnswer: "Radia Perlmanx"
+        correctAnswer: "Radia Perlman"
     },
     {
         question: "Who painted the Mona Lisa?",
