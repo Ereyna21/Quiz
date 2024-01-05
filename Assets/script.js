@@ -19,7 +19,7 @@ function startQuiz() {
     renderQuestion();
     if (timeRemaining <= 0) {
         clearInterval(timer);
-        showScore();
+        showScore(score-value);
     }
 }
 
@@ -86,13 +86,12 @@ function checkAnswer(event) {
     // Check if all questions have been answered
     if (currentQuestionIndex === questions.length) {
         // Quiz is finished, show the final score
-        showScore();
+        currentscore.textContent= score;
     } else {
         // Render the next question
         renderQuestion();
     }
 }
-
 function renderQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
 

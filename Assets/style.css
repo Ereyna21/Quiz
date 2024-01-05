@@ -19,7 +19,7 @@
    
     
   }
-  
+
   /* Style the paragraphs */
   p {
     font-size: 16px;
@@ -57,7 +57,7 @@
     padding: 10px 20px;
     background-color: #ffffff;
     color: #000000;
-    border: none;
+    border: solid;
     border-radius: 4px;
     cursor: pointer;
     font-size: large;
