@@ -49,7 +49,7 @@ const questions = [
     },
     {
         question: "Who is considered the MOther of the Internet?",
-        options: ["Anita Borg", "Grace Hopper", "ada Lovelace", "Radia Perlman"],
+        options: ["Anita Borg", "Grace Hopper", "Ada Lovelace", "Radia Perlman"],
         correctAnswer: "Radia Perlmanx"
     },
     {
@@ -66,6 +66,11 @@ const questions = [
         question: "Who was our first president?",
         options: ["George Jefferson", "George Washington", "Abraham Lincoln", "Barack Obama"],
         correctAnswer: "George Washington"
+    },
+    {
+        question: "What does HTML stand for?",
+        options: ["Hyper Trainer Marking Language", "Hyper Text Marketing Language", "Hyper Text Markup language", "Hyper Text Markup Leveler"],
+        correctAnswer: "Hyper Text Markup Language"
     },
     // Add more questions here...
 ];
